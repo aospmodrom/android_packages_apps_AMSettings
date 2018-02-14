@@ -21,6 +21,12 @@
         android:key="am_interface"
         android:title="@string/am_interface">
 
+        <!-- Clock settings -->
+        <Preference
+            android:key="am_statusbar_settings"
+            android:fragment="com.am.settings.StatusBarSettings"
+            android:title="@string/statusbar_settings_title"/>
+
         <!-- Recents panel settings -->
         <Preference
             android:key="am_recent_settings"
